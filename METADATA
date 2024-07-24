@@ -1,0 +1,17 @@
+name: "nanoprintf"
+description:
+    "nanoprintf is an unencumbered implementation of snprintf and vsnprintf for "
+    "embedded systems that, when fully enabled, aim for C11 standard "
+    "compliance."
+
+third_party {
+  identifier {
+    type: "Git"
+    value: "https://github.com/charlesnicholson/nanoprintf"
+    primary_source: true
+    version: "v0.5.1"
+  }
+  version: "v0.5.1"
+  last_upgrade_date { year: 2024 month: 7 day: 15 }
+  license_type: PERMISSIVE
+}
